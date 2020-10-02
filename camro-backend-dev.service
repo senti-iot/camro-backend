@@ -1,0 +1,21 @@
+[Unit]
+# camro-backend-dev.service
+Description=camro-backend
+Documentation=https://github.com/senti-iot/camro-backend/blob/master/README.md
+# After=network.target
+
+[Service]
+WorkingDirectory=/srv/nodejs/senti/services/camro-backend/development
+ExecStart=/usr/bin/node server.js
+Environment=NODE_PORT=3034
+Environment=NODE_ENV=development
+Type=simple
+Restart=always
+# RestartSec=1
+StartLimitInterval=0
+User=root
+Group=root
+# KillSignal=SIGQUIT
+
+[Install]
+WantedBy=basic.target

@@ -1,0 +1,49 @@
+{
+	"name": "camro-backend",
+	"version": "0.0.1",
+	"deprecated": false,
+	"description": "camro-backend service",
+	"main": "server.js",
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/senti-iot/camro-backend.git"
+	},
+	"keywords": [
+		"Senti.Cloud",
+		"Senti.IoT",
+		"Senti",
+		"IoT",
+		"Gateway",
+		"Micro Service Gateway",
+		"NodeJS",
+		"Express",
+		"Micro Service"
+	],
+	"author": {
+		"name": "Christian Broberg",
+		"email": "apisupport@senti.cloud",
+		"url": "https://senti.io/"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/senti-iot/camro-backend/issues"
+	},
+	"homepage": "https://github.com/senti-iot/camro-backend#readme",
+	"dependencies": {
+		"apisauce": "^1.1.2",
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"express-pino-logger": "^5.0.0",
+		"find-config": "^1.0.0",
+		"helmet": "^4.1.1",
+		"moment": "^2.29.0",
+		"pino": "^6.6.1",
+		"senti-apicore": "0.0.50"
+	},
+	"devDependencies": {
+		"eslint": "^7.10.0",
+		"eslint-config-google": "^0.14.0"
+	}
+}

@@ -7,7 +7,7 @@ Documentation=https://github.com/senti-iot/camro-backend/blob/master/README.md
 [Service]
 WorkingDirectory=/srv/nodejs/senti/services/camro-backend/development
 ExecStart=/usr/bin/node server.js
-Environment=NODE_PORT=3034
+Environment=NODE_PORT=3036
 Environment=NODE_ENV=development
 Type=simple
 Restart=always
